@@ -10,4 +10,5 @@ import java.util.Optional;
 @Repository
 public interface ImgurUserRepository extends JpaRepository<ImgrUser, Long> {
     ImgrUser findByUsername(String username);
+    ImgrUser findByUsernameAndPassword(String username, String password);
 }

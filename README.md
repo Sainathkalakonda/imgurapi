@@ -1,5 +1,5 @@
 ## Instructions to Use the API
-1. Before using this API, generate your application on [Imgur API](https://apidocs.imgur.com).
+1. Before using this API, register your application in [Imgur API](https://apidocs.imgur.com).
 2. Follow the steps mentioned in the link perfectly to generate your user token.
 3. Update the variable `imgur.access.token` in `application.properties` with your access token.
 4. Proceed with account creation, followed by image upload, image delete, and get images by user.

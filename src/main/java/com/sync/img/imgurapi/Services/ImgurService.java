@@ -102,12 +102,7 @@ import java.util.List;
             throw new RuntimeException("Failed to parse response");
         }
 
-    public List<ImgrUser> showimages(String username) {
-            List<ImgrUser> imgrUsers = new ArrayList<>();
-            imgrUsers=imageRepository.findB;
-            return imgrUsers;
 
-    }
 }
 
 
